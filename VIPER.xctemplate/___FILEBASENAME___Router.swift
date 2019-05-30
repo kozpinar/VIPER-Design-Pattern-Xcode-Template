@@ -12,8 +12,7 @@ import UIKit
 
 class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___PresenterToRouterProtocol {
     static func createModules() -> UIViewController {
-        let view = ___VARIABLE_productName:identifier___ViewController() // refactor this code for your own logic
-        // configure controller
+        let view = ___VARIABLE_productName:identifier___ViewController() // initialize controller
         let presenter: ___VARIABLE_productName:identifier___ViewToPresenterProtocol & ___VARIABLE_productName:identifier___InteractorToPresenterProtocol = ___VARIABLE_productName:identifier___Presenter()
         presenter.view = view
         presenter.interactor = ___VARIABLE_productName:identifier___Interactor()

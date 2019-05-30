@@ -11,7 +11,7 @@
 import UIKit
 
 class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___PresenterToInteractorProtocol {
-    var presenter: ___VARIABLE_productName:identifier___InteractorToPresenterProtocol?
+    weak var presenter: ___VARIABLE_productName:identifier___InteractorToPresenterProtocol?
     
     
 }
